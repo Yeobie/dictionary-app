@@ -9,7 +9,13 @@ function App() {
           <Dictionary />
         </main>
         <footer className="Credits">
-          <small>Created by Ilaria Vilardi with React.</small>
+          <small>
+            Created by{" "}
+            <a href="https://github.com/Yeobie/dictionary-app">
+              Ilaria Vilardi
+            </a>{" "}
+            with React.
+          </small>
         </footer>
       </div>
     </div>
