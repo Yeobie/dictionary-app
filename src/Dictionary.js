@@ -34,7 +34,7 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1 className="fw-bold">Dictionary</h1>
+        <h1 className="fw-bold">📖 Dictionary 📖</h1>
         <section>
           <h3>🔎 I'm looking for the meaning of...</h3>
           <form onSubmit={wordSearch}>

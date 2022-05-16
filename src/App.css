@@ -7,3 +7,7 @@
   margin: 30px 0px;
   text-align: center;
 }
+
+body {
+  background-color: rgb(228, 240, 145, 0.2);
+}
