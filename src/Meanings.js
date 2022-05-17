@@ -1,5 +1,6 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import "./Meanings.css";
 
 export default function Meanings(props) {
   if (props.meanings.definitions.synonyms) {
@@ -8,14 +9,14 @@ export default function Meanings(props) {
         <h4> {props.meanings.partOfSpeech}</h4>
         {props.meanings.definitions.map(function (definitions, index) {
           return (
-            <div key={index}>
-              <p>
+            <div key={index} className="Definition">
+              <div>
                 {" "}
-                <strong> Definition:</strong>
                 {definitions.definition}
                 <br />
                 <em> {definitions.example}</em>
-              </p>
+              </div>
+
               <Synonyms synonyms={definitions.synonyms} />
             </div>
           );
@@ -29,10 +30,10 @@ export default function Meanings(props) {
           <h4> {props.meanings.partOfSpeech}</h4>
           {props.meanings.definitions.map(function (definitions, index) {
             return (
-              <div key={index}>
+              <div key={index} className="Definition">
                 <p>
                   {" "}
-                  <strong> Definition:</strong>
+                  <strong> </strong>
                   {definitions.definition}
                   <br />
                   <em> {definitions.example}</em>
@@ -40,6 +41,7 @@ export default function Meanings(props) {
               </div>
             );
           })}
+
           <Synonyms synonyms={props.meanings.synonyms} />
         </section>
       </div>

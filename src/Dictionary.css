@@ -6,7 +6,7 @@ form {
   background-color: white;
   padding: 40px 30px 50px 30px;
   border-radius: 10px;
-  margin: 30px 250px;
+  margin: 30px 150px;
   box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.2);
 }
 
@@ -15,4 +15,24 @@ form {
   height: 40px;
   border-radius: 5px;
   border-width: 1px;
+}
+
+.Dictionary h1 {
+  font-family: "Fredoka One", cursive;
+  color: #883c82;
+}
+
+.Dictionary h3 {
+  font-family: "Fredoka One", cursive;
+  color: #eab552;
+}
+
+@media (max-width: 767px) {
+  .Dictionary section {
+    margin: 30px 5px;
+  }
+
+  .Dictionary h3 {
+    font-size: 20px;
+  }
 }

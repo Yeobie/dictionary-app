@@ -1,0 +1,24 @@
+.Phonetics a {
+  padding: 10px 15px;
+  background-color: #f9cd76;
+  color: #b7569a;
+  border-radius: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.Phonetics a:hover {
+  color: #f9cd76;
+  background-color: #b7569a;
+}
+
+.no-audio {
+  color: #b7569a;
+}
+
+.Phonetics {
+  font-weight: bold;
+}
+
+.Ipa {
+  color: #686868;
+}

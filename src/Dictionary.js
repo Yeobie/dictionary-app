@@ -36,11 +36,11 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <h1 className="fw-bold">📖 Dictionary 📖</h1>
         <section>
-          <h3>🔎 I'm looking for the meaning of...</h3>
+          <h3>🔎 Let's find the meaning...</h3>
           <form onSubmit={wordSearch}>
             <input
               type="search"
-              placeholder="Search for..."
+              placeholder="...of anything you'll type here!"
               defaultValue={props.defaultKeyword}
               onChange={handleKeywordChange}
             ></input>

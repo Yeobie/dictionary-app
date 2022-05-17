@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container-fluid">
         <main>
-          <Dictionary defaultKeyword="hello" />
+          <Dictionary defaultKeyword="music" />
         </main>
         <footer className="Credits">
           <small>
